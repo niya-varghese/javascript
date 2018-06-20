@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact page</title>
+	<script type="text/javascript" src="script.js"></script>
+	<style>
+
+      form{
+         padding: 50px;
+         width:300px;
+         margin:auto;
+         border: 4px solid black;
+         background-color: PaleTurquoise ;
+         box-shadow: 0px -3px 0px red inset;
+         }
+
+      </style>
+</head>
+<body>
+<form>
+	<table>
+	<tr>
+       <td colspan=2> <center> <font size=4> <b> Contact Page </b> </font></center></td>
+    </tr>
+ 	<tr>
+ 	  <td><label>Name </label><input type="uname" name="username" id="username" ></td>
+ 	    <td><label style="padding-left: 20px; color:red; font-size:10px" id="msg6" ></label></td>
+ 	</tr>
+
+ 	<tr>
+ 	  <td><label>Email </label><input type="email" name="email" id="email" ></td>
+ 	    <td><label style=" color:red; font-size:10px" id="msg7" ></label></td>
+ 	</tr>
+
+ 	<tr>
+ 	  <td><label>Phone </label><input type="tel" name="phone" id="phone" length="10" ></td>
+ 	    <td><label style="color:red; font-size:10px" id="msg8" ></label></td>
+
+ 	<tr>
+ 	  <td><p><label>Question </label>
+ 		<textarea name="question" id="question" minlength="1" maxlength="200"rows="10" cols="33" > </textarea></p>
+ 		  <td><label style=" color:red; font-size:10px" id="msg9" ></label></td>
+ 	</tr>
+
+ 	<tr>
+ 		<td style="padding-left: 150px">
+ 			<input type="button" value="send" name="send" onclick="usercontact()">
+ 		</td>
+ 	</tr>
+
+ </form>
+ </table>
+</form>
+</body>
+</html>
